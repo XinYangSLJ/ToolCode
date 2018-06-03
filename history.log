@@ -1,0 +1,120 @@
+    1  d:
+    2  cd E:/
+    3  mkdir my-gitRepositories
+    4  ls
+    5  cd my-gitRepositories/
+    6  ll
+    7  git init
+    8  ll
+    9  ll
+   10  ls -a
+   11  echo "hello my test" >> first.test
+   12  ll
+   13  git status
+   14  git add .
+   15  ls
+   16  git status
+   17  git commit -m "This is my first commit via git"
+   18  git config
+   19  git config --global user.email "shenlj102630@163.com"
+   20  git config --global user.name "XinYangSLJ"
+   21  git -commit -m "shenlijun"
+   22  git commit -m "shenlijun"
+   23  git status
+   24  git log
+   25  git branch
+   26  git checkout -b feature
+   27  git branch
+   28  git --version
+   29  ls
+   30  ls -l
+   31  ls -a
+   32  cd e:
+   33  cd haha/
+   34  ll
+   35  cd -
+   36  cd ..
+   37  git config -l
+   38  cd E:\haha
+   39  ll
+   40  git init
+   41  cd f:
+   42  mkdir mygit
+   43  ll
+   44  ls my*
+   45  ls my*
+   46  cd mygit/
+   47  ll
+   48  git init
+   49  touch 111.txt
+   50  ll
+   51  git status
+   52  git add 111.txt
+   53  git status
+   54  git .
+   55  git add .
+   56  vi 111.txt 
+   57  git status
+   58  git add -u 111.txt xt
+   59  git add -u 111.txt
+   60  git status
+   61  cat 111.txt 
+   62  git commit -m'my first commit!'
+   63  git status
+   64  echo '第二次修改-测试同时提交至暂存区和历史区' >>111.txt
+   65  git status
+   66  git commit -a -m'第二次提交'
+   67  git status
+   68  git log
+   69  echo 测试命令 >test.txt
+   70  ll
+   71  git add .
+   72  status
+   73  git status
+   74  vi test.txt 
+   75  cat test.txt 
+   76  git reset HEAD .
+   77  cat test.txt 
+   78  git reset --HEAD .
+   79  git checkout
+   80  cat test.txt 
+   81  git log
+   82  git status
+   83  git checkout
+   84  cat test.txt 
+   85  git add .
+   86  git status
+   87  echo 3 >test.txt 
+   88  git status
+   89  cat test.txt 
+   90  git checkout
+   91  git status
+   92  cat test.txt 
+   93  git checkout .
+   94  cat test.txt 
+   95  git reset HEAD .
+   96  git checkout .
+   97  cat test.txt 
+   98  git checkout .
+   99  cat test.txt 
+  100  git commit -m'测试文件'
+  101  git status
+  102  git add .
+  103  git status
+  104  git commit -m'测试文件'
+  105  git log
+  106  echo 第三次修改文件并提交 >>test.txt 
+  107  git add .
+  108  git commit -m'测试文件第二次提交'
+  109  git log
+  110  git reset hard 51dcf4a1007f8d64093849fd
+  111  git log
+  112  cat test.txt 
+  113  git status
+  114  git reset hard '51dcf4a1007f8d64093849fd'
+  115  git reset hard '51dcf4a1007f8d64093849fd' -- test.txt
+  116  git reset hard '51dcf4a1007f8d64093849fd' test.txt
+  117  git reset --hard '51dcf4a1007f8d64093849fd'
+  118  git log
+  119  git reflog
+  120  history >> history.log
